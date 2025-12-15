@@ -15,7 +15,8 @@ public class question82 {
             p*=10;
             n=n/2;
         } // end of while
-        System.out.print("n dar mabnaye 2= "+result);
+        System.out.print("n dar mabnaye 2= "+r);
     } // end of main
 } // end of class
+
 
