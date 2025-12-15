@@ -9,7 +9,7 @@ public class question67 {
         {
             System.out.print("Enter "+m+"st Num:");
             int n=scanner.nextInt();
-            int temp=n;
+            int t=n;
             int rev=0;
             while (n>0)
             {
@@ -17,10 +17,11 @@ public class question67 {
                 rev=rev*10+r;
                 n=n/10;
             } // end of while
-            if (rev==temp)
+            if (rev==t)
                 c++;
         } // end of for
         System.out.println("Tedad = "+c);
     } // end of main
 
 } // end of class
+
