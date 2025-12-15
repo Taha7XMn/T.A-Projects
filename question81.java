@@ -10,9 +10,10 @@ public class question81 {
         int p=1;
         while(n>0)
         {
-            if ((n%10) != 0)
+            z = n%10
+            if ((z)!=0)
             {
-                r=r+((n % 10)*p);
+                r=r+((z)*p);
                 p=p*10;
             }
             n=n/10;
@@ -20,3 +21,4 @@ public class question81 {
         System.out.print(r);
     } // end of main
 } // end of class
+
