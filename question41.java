@@ -9,11 +9,12 @@ public class question41 {
         while(k<50)
         {
             c=a+b;
+            System.out.print(c);
             k++;
             a=b;
             b=c;
         } // end of while
-        System.out.print("50 jomle aval : "+c);
     } // end of main
 } // end of class
+
 
