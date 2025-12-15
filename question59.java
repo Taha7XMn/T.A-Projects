@@ -17,11 +17,10 @@ public class question59 {
                 k++;
             }//end of while2
             if (k > 0)
-                System.out.print(m+ "^" + k);
-            if (n>1)
-                System.out.print("+");
+                System.out.print(m+"^"+k+"*");
             m++;
         } // end of while1
     } // end of main
 } // end of class
+
 
