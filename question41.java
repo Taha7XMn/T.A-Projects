@@ -13,6 +13,7 @@ public class question41 {
             a=b;
             b=c;
         } // end of while
-        System.out.print("Result : "+c);
+        System.out.print("50 jomle aval : "+c);
     } // end of main
 } // end of class
+
