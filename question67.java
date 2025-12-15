@@ -5,7 +5,7 @@ public class question67 {
     {
         Scanner scanner = new Scanner(System.in);
         int c=0;
-        for (int m=1;m<=5;m++)
+        for (int m=1;m<=100;m++)
         {
             System.out.print("Enter "+m+"st Num:");
             int n=scanner.nextInt();
@@ -22,4 +22,5 @@ public class question67 {
         } // end of for
         System.out.println("Tedad = "+c);
     } // end of main
+
 } // end of class
