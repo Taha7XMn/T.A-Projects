@@ -7,14 +7,15 @@ public class question82 {
         System.out.print("Enter Number : ");
         int n = scanner.nextInt();
         int p=1;
-        long result=0;
+        long r=0;
         while (n > 0)
         {
-            int r=n%2;
-            result=result+(r*p);
+            int q=n%2;
+            r=r+(q*p);
             p*=10;
             n=n/2;
         } // end of while
         System.out.print("n dar mabnaye 2= "+result);
     } // end of main
 } // end of class
+
