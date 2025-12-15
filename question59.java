@@ -6,10 +6,8 @@ public class question59 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter Number : ");
         int n = scanner.nextInt();
-        int temp=n;
         int m=2;
         int k;
-        System.out.print(temp + "=");
         while (n>1)
         {
             k=0;
@@ -26,3 +24,4 @@ public class question59 {
         } // end of while1
     } // end of main
 } // end of class
+
